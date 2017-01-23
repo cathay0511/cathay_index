@@ -52,6 +52,10 @@ html, body {
 	padding: 70px 100px;
 }
 
+.cai-section-content h1 {
+	color: #333;
+}
+
 .cai-section-begin {
 	background-image: url("/cathay_index/static/images/star_01.jpg");
 	background-position: center;

@@ -4,7 +4,8 @@
 }
 
 #timeline a {
-	color: #ffffcc;
+	color: #ffcc00;
+	// color: #ffffcc;
 	text-decoration: none;
 	-webkit-transition: 0.5s;
 	-moz-transition: 0.5s;
@@ -15,7 +16,8 @@
 
 #timeline a:hover,
 #timeline a.selected {
-		color: #ffcc00;
+		color: #ffffcc;
+		// color: #ffcc00;
 	}
 
 .sociales {
@@ -24,44 +26,49 @@
 }
 
 	#timeline {
-		width: 800px;
+		width: 920px;
 		height: 350px;
 		left: 50%;
-		margin-left: -400px;
+		margin-left: -460px;
 		overflow: hidden;
 		// margin: 100px auto;
 		position: absolute;
 		background: url('/cathay_index/static/time_line/dot.gif') left 45px repeat-x;
 	}
 		#dates {
-			width: 800px;
+			width: 920px;
 			height: 60px;
 			overflow: hidden;
 		}
 			#dates li {
 				list-style: none;
 				float: left;
-				width: 100px;
+				width: 140px;
 				height: 50px;
 				font-size: 24px;
 				text-align: center;
 				background: url('/cathay_index/static/time_line/biggerdot.png') center bottom no-repeat;
 			}
 				#dates a {
+					color: #999;
 					line-height: 38px;
 					padding-bottom: 10px;
 				}
 				#dates .selected {
 			        font-size: 38px;
 				}
+				#dates a:hover,
+				#dates a.selected {
+					color: #333;
+				}
 		
 		#issues {
-			width: 800px;
+			width: 920px;
 			height: 350px;
 			overflow: hidden;
 		}	
 			#issues li {
-				width: 800px;
+				width: 920px;
 				height: 350px;
 				list-style: none;
 				float: left;
