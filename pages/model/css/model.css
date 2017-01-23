@@ -68,6 +68,16 @@ html, body {
 	background-repeat: no-repeat;
 }
 
+.cai-section-more .summary {
+	position: absolute;
+	width: 420px;
+	font-size: 28px;
+	right: 0;
+	bottom: 0;
+	color: #fff;
+	text-shadow: #000 1px 1px 2px;
+}
+
 .cai-section-more {
 	background-image: url("/cathay_index/static/images/star_04.jpeg");
 	background-position: center;
