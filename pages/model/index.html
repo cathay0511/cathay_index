@@ -12,14 +12,17 @@
 </head>
 <body>
 <div class="cai-header">
-	<span class="fr" style="margin-right: 20px;">八云哲学体系</span>
+	<span class="fl" style="margin-left: 20px; font-size: 16px; width: 163px; text-align: left;">站在巨人的肩膀</span>
+	<span>八云哲学体系</span>
+	<span class="fr" style="margin-right: 20px; font-size: 16px;">cathay0512@163.com</span>
 </div>
 <div id="fullpage" class="cai-main-content dn">
 	<div class="section cai-section cai-section-begin">
 		<div class="cai-section-content">
 			<h1>开始</h1>
 			<div class="content">
-				<p>在此——我们架构这个世界，探索生命的意义，以及事物存在的普适价值。</p>
+				<span class="half fl">在此——我们架构这个世界，探索生命的意义，以及事物存在的普适价值。</span>
+				<video class="half fr" style="opacity: 0.6" preload="auto" load="loaded" controls="controls" src="http://ws.acgvideo.com/d/f9/3266391-1.mp4?wsTime=1485333840&amp;wsSecret2=71ac5920e83cc6095cd1aa55d40ade17&amp;oi=2030050753&amp;rate=140">Your browser does not support the video tag.</video>
 			</div>
 		</div>
 	</div>
@@ -49,7 +52,9 @@
 		<div class="slide">
 			<div class="sub-section cai-section-evaluation">
 				<h1>价值度量</h1>
-				<div class="content">明日挥剑破云去，御风万里山河巅。</div>
+				<div class="content">
+					<!-- <canvas id="my_canvas" class="canvas" style="width: 100%; height: 50%;"></canvas> -->
+				</div>
 			</div>
 		</div>
 	</div>
@@ -119,66 +124,18 @@
 			</div>
 		</div>
     </div>
-<!--     <div class="section cai-section cai-section-related-work" style="color: #fff; opacity: 0.6;">
-		<div class="cai-section-content">
-			<h1 style="color: #fff;">更多</h1>
-			<div class="content">
-			决(き)めつけばかり<br/>
-ki me tsuke bakari<br/>
-自惚(うぬぼ)れを着(ぎ)た　<br/>
-unubo re wo gi ta<br/>
-チープなhokoriで　音荒(おとあら)げても<br/>
-chiipu na hokori de oto aragetemo<br/>
-棚(たな)に隠(かく)した　<br/>
-tanani kakushita<br/>
-哀(あわ)れな　<br/>
-awa re na<br/>
-耻(はじ)に濡(ぬ)れた镜(かがみ)の中(なか)<br/>
-hajini nureta kagamino naka<br/>
-都合(つご)の伤(きず)だけひけらかして<br/>
-tsugo no kizu dake hikerakashite　<br/>
-手軽(てがる)な强(つよ)さで胜取(かちと)る术(すべ)を<br/>
-tegaru na tsuyosa de kachitoru subewo<br/>
-どれだけ磨(と)いでも気(き)はやつれる　<br/>
-dore dake toidemo kiha yatsureru<br/>
-ふらついた思想(しそう)通(どお)りだ<br/>
-furatsuita shisou doorida<br/>
-爱(あい)-same-CRIER<br/>
-ai same crier　<br/>
-爱抚(あいぶ)-save-LIAR<br/>
-aibu save liar<br/>
-Eid-圣(せい)-Rising HELL<br/>
-eid sei rising hell<br/>
-爱(あい)してる Game世界(せかい)のDay<br/>
-ai shiteru game sekai no day<br/>
-Don*t-生(せい)-War<br/>
-dont sei war<br/>
-Lie-兵士(へいし)-War-World<br/>
-lie heishi war world<br/>
-Eyes-Hate-War<br/>
-A-Z Looser-Krankheit-Was IS das?<br/>
-				<div class="fl half description">
-					<h2>相关工作</h2>
-					<p>some text...</p>
-				</div>
-				<div class="fr half description">
-					<h2>&nbsp;</h2>
-					<p>some text...</p>
-				</div>
-			</div>
-		</div>
-    </div> -->
 </div>
 <div class="cai-footer">
 	<span style="float: left; margin-left: 20px;">be awe, then fearless</span>
-    <span>神隠しの大航海家</span>
-    <span style="float: right; margin-right: 20px;">simple &! common</span>
+    <span style="font-size: 24px;">神隠しの大航海家</span>
+    <span style="float: right; margin-right: 20px; width: 172px; text-align: right;">simple &! common</span>
 </div> -->
 
 <script src="/cathay_index/lib/jquery-1.11.0.min.js"></script>
 <script src="/cathay_index/lib/jquery-ui.min.js"></script>
 <script src="/cathay_index/lib/jquery.fullPage.js"></script>
 <script src="/cathay_index/lib//jquery.timelinr-0.9.6.js"></script>
+<script src="/cathay_index/lib/wordcloud2.js"></script>
 <script type="text/javascript">
 $(function(){
 	$('#fullpage').removeClass('dn');
@@ -193,7 +150,8 @@ $(function(){
     });
 	$().timelinr({
 		rrowKeys: 'true'
-	})
+	});
+	// WordCloud(document.getElementById('my_canvas'), { list: [['foo', 12], ['bar', 6]] } );
 })
 </script>
 </body>
