@@ -23,6 +23,19 @@ html, body {
 	width: 50%;
 }
 
+@-webkit-keyframes twinkling{ /*透明度由0到1*/
+    0%{
+        color: #ffcc00;
+    }
+    100%{
+        color: #fff;
+    }
+}
+
+#title_spirit_x a {
+    -webkit-animation: twinkling 1s infinite ease-in-out;
+}
+
 .cai-header {
 	width: 100%;
 	height: 60px;
