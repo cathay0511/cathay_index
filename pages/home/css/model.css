@@ -1,0 +1,105 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.dib {
+    display: inline-block;
+}
+
+.dn {
+    display: none;
+}
+
+.fr {
+    float: right;
+}
+
+.fl {
+	float: left;
+}
+
+.half {
+	width: 50%;
+}
+
+@-webkit-keyframes twinkling{ /*透明度由0到1*/
+    0%{
+        color: #ffcc00;
+    }
+    100%{
+        color: #fff;
+    }
+}
+
+#title_spirit_x a {
+    -webkit-animation: twinkling 1s infinite ease-in-out;
+}
+
+.cai-header {
+	width: 100%;
+	height: 60px;
+	// padding: 0 20px;
+	position: fixed;
+	top: 0;
+	line-height: 60px;
+	background-color: #fff;
+	color: #999;
+	font-size: 24px;
+	text-align: center;
+	opacity: 0.8;
+	z-index: 10086;
+}
+
+.cai-footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 80px;
+    background: #333;
+    color: #fff;
+    line-height: 80px;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.cai-section-content {
+	padding: 70px 100px;
+}
+
+.cai-section-content h1 {
+	color: #333;
+}
+
+.cai-section-begin {
+	background-image: url("/cathay_index/static/images/star_01.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.cai-section-methodology {
+	background-image: url("/cathay_index/static/images/daxiang_01.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.cai-section-more .summary {
+	position: absolute;
+	width: 420px;
+	font-size: 28px;
+	right: 0;
+	bottom: 0;
+	color: #fff;
+	text-shadow: #000 1px 1px 2px;
+}
+
+.cai-section-more {
+	background-image: url("/cathay_index/static/images/star_04.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+.cai-section-methodology .sub-section {
+	padding: 70px 100px;
+}
